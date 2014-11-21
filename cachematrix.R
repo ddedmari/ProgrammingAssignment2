@@ -60,6 +60,8 @@ cacheSolve <- function(my_obj, ...)
 
 ############## here are the test cases/commands to test the functions above #################################
 
+## source('~/ProgrammingAssignment2/cachematrix.R') -- source the file cachematrix.R
+
 ## mat1 <- matrix(1:4, 2,2)  -- create a 2*2 matrix called mat1
 
 ## matObj1 <- makeCacheMatrix(mat1) -- pass mat1 to makeCacheMatrix() to create matObj1

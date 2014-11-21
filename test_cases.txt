@@ -1,0 +1,29 @@
+############## here are the test cases/commands to test the functions above #################################
+
+## source cachematrix.R
+
+## mat1 <- matrix(1:4, 2,2)  -- create a 2*2 matrix called mat1
+
+## mat1 — see matrix
+
+## solve(mat1) — check for matrix inverse
+
+## matObj1 <- makeCacheMatrix(mat1) -- pass mat1 to makeCacheMatrix() to create matObj1
+
+## cacheSolve(matObj1) -- No cache value, hence calculate inverse and return
+
+## cacheSolve(matObj1) -- Cache hit, just return inverse
+
+## mat2 <- matrix(c(2,2,3,2), nrow=2,ncol=2)  -- create another 2*2 matrix called mat2
+
+## matObj2 <- makeCacheMatrix(mat2)  -- pass mat2 to makeCacheMatrix() to create matObj2
+
+## cacheSolve(matObj2)  -- No cache value, hence calculate inverse and return
+
+## cacheSolve(matObj2)  -- Cache hit, just return inverse
+
+## matObj1 <- makeCacheMatrix(mat2)  -- replace the first input matrix mat1 by the second matrix mat2 in matObj1
+
+## cacheSolve(matObj1)  -- No cache value, hence calculate inverse and return
+
+## cacheSolve(matObj1)  -- Cache hit, just return inverse
